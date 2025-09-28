@@ -1,0 +1,52 @@
+/* Фон сторінки */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #353535, #3b3b3b);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Заголовок */
+h1, h2 {
+    text-align: center;
+    color: #d3d3d3;
+}
+
+/* Стиль для форми */
+form {
+    background-color: #242424;
+    color: #bbbbbb;
+    width: 400px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    margin: 30px auto;
+    position: relative;
+}
+
+/* стилізація полів вводу */
+input, select {
+    width: 95%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+/* кнопка */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+    border: none;
+    padding: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
